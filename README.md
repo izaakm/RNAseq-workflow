@@ -461,6 +461,14 @@ biocLite("gage") ; library(gage)
 biocLite("ggsci") ; library(ggsci)
 ```
 
+[TODO] Find alternative to `KEGG.db` module:
+
+```
+Warning message:
+Package 'KEGG.db' is deprecated and will be removed from Bioconductor
+  version 3.12
+```
+
 ##### 7b. Import featureCounts output
 
 One you have an R environment appropriatley set up, you can begin to import the **featureCounts** table found within the `5_final_counts` folder. This tutorial will use **DESeq2** to normalize and perform the statistical analysis between sample groups. Be sure to know the full location of the `final_counts.txt` file generate from **featureCounts**.
